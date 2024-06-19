@@ -5,7 +5,7 @@ import io.smallrye.reactive.messaging.kafka.Record;
 import org.acme.model.Price;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
